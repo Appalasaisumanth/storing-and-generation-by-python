@@ -25,8 +25,8 @@ class all(object):
                 show=int(input())
                 if (show==1):
                     print(passw)
-            if passcheck.check(passw):
-                break
+                if passcheck.check(passw):
+                    break
             elif choice==2:
                 passw=passcheck.create()
                 print("this is ur password"+"\n"+passw)
